@@ -1,0 +1,75 @@
+id - identification code for observation
+
+observed_on_string - time of observation to the minute, with date and time zone specified
+
+observed_on - date of observation
+
+time_observed_at - time of observation to the minute in coordinated universal time
+
+time_zone - time zone of observation
+
+user_id - identification code for observer
+
+user_login - username of observer
+
+created_at - time of upload of observation
+
+updated_at - ?
+
+quality_grade - if "research", then 2/3 majority consensus reached of at least species identification, of "needs_id", then not
+
+license - license of observation photograph
+
+url - link to observation on iNaturalist 
+
+image_url - link to an image from the observation on iNaturalist
+
+sound_url - link to a sound from the observation on iNaturalist
+
+tag_list - list of search tags placed on observation by observer
+
+description - description of observation by observer
+
+num_identification_agreements - number of users who agree with the observer identification 
+
+num_identification_disagreements - number of users who disagree with the observer identification 
+
+captive_cultivated - if "TRUE", then the observed organism is captive or cultivated, if "FALSE", then not
+
+oauth_application_id - ?
+
+place_guess - name of broad location of observation
+
+latitude - latitude of observation
+
+longitude - longitude of observation
+
+positional_accuracy - positional accuracy of observation in metres
+
+private_place_guess - ?
+
+private_latitude - ?
+
+private_longitude - ?
+
+public_positional_accuracy - positional accuracy of observation in metres
+
+geoprivacy - ?
+
+taxon_geoprivacy - if "open", then observation location is not obscured, if "private", then not
+
+coordinates_obscured - if "FALSE", then coordinates of observation are obsured, if "TRUE", then not
+
+positioning_method - ?
+
+positioning_device - ?
+
+species_guess - lowest level identification of observed species
+
+scientific_name - scientific name of observed species
+
+common_name - common name of observed species
+
+iconic_taxon_name - name of the taxon represented by the icon associated with the observed species
+
+taxon_id - identification code for observed species 
